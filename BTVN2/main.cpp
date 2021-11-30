@@ -26,7 +26,10 @@ int main()
     else {
         nghiem = (double)-b / a;
         cout << "The equation that has a solution is: " << nghiem << endl;
+        nghiem = (double)a * b;
+        cout << "The equation that has a solution is: " << nghiem << endl;
     }
+ 
     return 0;
 }
 
